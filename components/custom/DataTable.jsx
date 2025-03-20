@@ -17,7 +17,7 @@ const convertNestedObjectsToString = (arr) => {
 
 
 export default function DynamicDataTable() {
-  const [apiUrl, setApiUrl] = useState("https://randomuser.me/api/?results=20");
+  const [apiUrl, setApiUrl] = useState("https://jsonplaceholder.typicode.com/users");
   const [tableData, setTableData] = useState([]);
   const [fetchAPI, setfetchAPI] = useState(false);
   const [loading, setloading] = useState(false);
