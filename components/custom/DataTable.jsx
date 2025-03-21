@@ -36,7 +36,7 @@ export default function DynamicDataTable() {
         // console.log(res)
       })
       .catch((err) => {
-        console.log(err)
+        // console.log(err)
         setError(err);
         seterrorMsg("Sorry, We are unable to fetch data from your url error");
         setTableData([]);

@@ -1,24 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
+This is a React application that dynamically renders a table based on data fetched from a user-provided API URL. The table automatically detects columns and includes sorting, and pagination features.
 
-First, run the development server:
+
+## Technology used
+This is a [Next.js](https://nextjs.org) project developed with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Here we have used some third-party npm packages which are tracable through package.json file.
+
+## How to run this application?
+
+First, download or clone the files using following command:
+
+```bash
+git clone https://github.com/subhendu-baral/dynamic-api-table-fetch.git
+
+```
+
+Then install all the npm Dependencies using following command:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Now you can Start Development Server using following command:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Deployment
+The application is deployed on Vercel.
+🔗 **Live Demo:** [View Here](https://dynamic-api-table-fetch.vercel.app/)
+
+
+## How to use the application?
+Enter a valid API URL in the input field, click 'Fetch Data', and the table will display the fetched data.
+
 
 ## Learn More
 
